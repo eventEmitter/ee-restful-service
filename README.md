@@ -7,6 +7,11 @@ RESTful Service Middleware for ee-webservice
 
 	npm install em-rest-service
 
+
+## build status
+
+[![Build Status](https://travis-ci.org/eventEmitter/em-restful-service.png?branch=master)](https://travis-ci.org/eventEmitter/em-restful-service)
+
 ## usage
 
 You need to create controllers for each collection and each resource you plan to make available via the service.
@@ -50,6 +55,10 @@ URLs must be formatted as «collection/id» pairs so that they can parsed by the
 				// the resource was called on the root /comment/:id
 				response.render( 200, [] );
 			}
+
+			// if this were a resource controller there would be a «resource»
+			// property on the request. it would conatin the id / unique key
+			// of the requested resource. log(request.resource) // 32432
 		}
 	});
 
