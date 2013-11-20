@@ -20,14 +20,14 @@ a collection is a collection of resources ( «/user» ), a resource is a single 
 URLs must be formatted as «collection/id» pairs so that they can parsed by the service
 
 **bad**
- - user/comment
- - user
- - user/4/comment/images
+- user/comment
+- user
+- user/4/comment/images
 
  **good**
- - /user/4/comment
- - /user
- - /user/4/comment/6/image
+- /user/4/comment
+- /user
+- /user/4/comment/6/image
 
  See the [joinbox RESTFul Style Guide](https://github.com/joinbox/guidelines/blob/master/styleguide/RESTful.md) for more information.
 
