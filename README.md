@@ -10,7 +10,7 @@ RESTful Service Middleware for ee-webservice
 
 ## build status
 
-[![Build Status](https://travis-ci.org/eventEmitter/em-restful-service.png?branch=master)](https://travis-ci.org/eventEmitter/em-restful-service)
+[![Build Status](https://travis-ci.org/eventEmitter/em-rest-service.png?branch=master)](https://travis-ci.org/eventEmitter/em-rest-service)
 
 ## usage
 
