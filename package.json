@@ -1,20 +1,19 @@
 {
-      "name"                        : "ee-rest-service"
-    , "description"                 : "RESTful Service Middleware library"
+      "name"                        : "em-rest-service"
+    , "description"                 : "RESTful Service Middleware for ee-webservice"
     , "version"                     : "0.1.0"
-    , "homepage"                    : "https://github.com/eventEmitter/ee-rest-service"
+    , "homepage"                    : "https://github.com/eventEmitter/em-rest-service"
     , "author"                      : "Michael van der Weg <michael@eventemitter.com> (http://eventemitter.com/)" 
     , "licence"                     : "mit"
-    , "os"                          : "linux"
     , "repository": {
-          "url"                     : "https://github.com/eventEmitter/ee-rest-service.git"
+          "url"                     : "https://github.com/eventEmitter/em-rest-service.git"
         , "type"                    : "git"
     }
     , "engines": {
         "node"                      : ">=v0.10.17"
     }
     , "bugs": {
-        "url"                       : "https://github.com/eventEmitter/ee-rest-service/issues"
+        "url"                       : "https://github.com/eventEmitter/em-rest-service/issues"
     }
     , "dependencies": {
           "ee-class"                : "*"
@@ -25,4 +24,8 @@
     }
     , "devDependencies": {}
     , "optionalDependencies": {}
+    , "keywords"                    : [ "REST", "middleware", "ee-framework" ]
+    , "scripts": {
+        "test"                      : "node test.js"
+    }
 }
