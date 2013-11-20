@@ -29,7 +29,7 @@ URLs must be formatted as «collection/id» pairs so that they can parsed by the
 - /user
 - /user/4/comment/6/image
 
-See the [joinbox RESTFul Style Guide](https://github.com/joinbox/guidelines/blob/master/styleguide/RESTful.md) for more information.
+See the [Joinbox RESTFul Style Guide](https://github.com/joinbox/guidelines/blob/master/styleguide/RESTful.md) for more information.
 
 
 
