@@ -105,10 +105,9 @@ See the [Joinbox RESTFul Style Guide](https://github.com/joinbox/guidelines/blob
 
 	// create an instance of my service implementation
 	var myService = new MyService();
+	myService.on('load', function(){
+		service.listen();
+	});
 
 	// add myservice middleware to the webservice
 	service.use(myService);
-
-	service.listen();
-
-
