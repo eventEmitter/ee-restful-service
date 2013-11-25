@@ -76,12 +76,18 @@ See the [Joinbox RESTFul Style Guide](https://github.com/joinbox/guidelines/blob
 
 
 		, init: function init() {
-			init.parent();
-
+			// you may load controllers from a direcotry or do the work yourself
 			var commentsCollectionController = new CommentCollection();
 
 			this.use('/user/:id/comment', commentsCollectionController);
 			this.use('/comment', commentsCollectionController);
+
+			// load controllers from a diretoy
+			var options = {};
+			options.controller = './controllers';
+			options.controllerOptions = { anything: 'that', should: { be: 'passed' }, to: { the: 'controlers' } };
+
+			init.parent(options);
 		}
 	});
 
