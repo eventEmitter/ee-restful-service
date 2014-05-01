@@ -1,7 +1,7 @@
 {
       "name"                        : "em-rest-service"
     , "description"                 : "RESTful Service Middleware for ee-webservice"
-    , "version"                     : "0.1.11"
+    , "version"                     : "0.1.12"
     , "homepage"                    : "https://github.com/eventEmitter/em-rest-service"
     , "author"                      : "Michael van der Weg <michael@eventemitter.com> (http://eventemitter.com/)" 
     , "licence"                     : "mit"
@@ -16,14 +16,14 @@
         "url"                       : "https://github.com/eventEmitter/em-rest-service/issues"
     }
     , "dependencies": {
-          "ee-class"                : "*"
-        , "ee-event-emitter"        : "*"
-        , "ee-types"                : "*"
-        , "ee-log"                  : "*"
-        , "ee-lru-cache"            : "*"
-        , "ee-error"                : "*"
-        , "ee-arguments"            : "*"
-        , "ee-project"              : "*"
+          "ee-class"                : "0.4.x"
+        , "ee-event-emitter"        : "0.1.x"
+        , "ee-types"                : "0.1.x"
+        , "ee-log"                  : "0.2.x"
+        , "ee-lru-cache"            : "0.1.x"
+        , "ee-error"                : "0.1.x"
+        , "ee-arguments"            : "0.1.x"
+        , "ee-project"              : "0.2.x"
     }
     , "devDependencies": {}
     , "optionalDependencies": {}
