@@ -1,5 +1,7 @@
 # em-rest-service
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/eventEmitter/em-rest-service.svg)](https://greenkeeper.io/)
+
 RESTful Service Middleware for ee-webservice
 
 
